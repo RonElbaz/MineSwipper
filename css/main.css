@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-image: url("../imgs/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button {
+  height: 75px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+button:hover{
+background-color: rgba(0, 255, 255, 0);
+transition: 0.5s;
+transform: scale(1.2);
+
+}
+
+table {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  table-layout: fixed;
+  position: relative;
+  border: solid 2px black;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+  cursor: pointer;
+  border: solid 2px black;
+}
+
+td:hover {
+  background-color: darkblue;
+}
+
+
+.timer h2 {
+  background-color: rgba(119, 136, 153, 0);
+  margin-top: 2px;
+  width: 300px;
+  display: inline-block;
+}
+
+.lives h2 {
+  background-color: rgba(119, 136, 153, 0);
+  text-align: center;
+  margin-top: 2px;
+  width: 150px;
+  display: inline-block;
+}
+
+div.smiley {
+  border: solid;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
